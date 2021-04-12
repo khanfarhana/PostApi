@@ -22,6 +22,7 @@ class ViewController: UIViewController {
             
             if let error = err{
                 print("\(error.localizedDescription)")
+                print("hello")
             }
             else if let dataRes = data{
                 do{
